@@ -26,4 +26,8 @@ export class QuestionController {
       Pop.toast(error.message, 'error')
     }
   }
+  answer(reply, id) {
+    questionService.answer(reply, id)
+
+  }
 }

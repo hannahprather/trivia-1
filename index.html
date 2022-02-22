@@ -26,9 +26,20 @@
       <div class="row">
         <div class="col-12">
           <div id="app"></div>
+          <button onclick="app.questionController.getQuestion()" type="button" class="btn btn-outline-success">Next
+            Question
+          </button>
           <h3 id="question"></h3>
-          <button type="button" class="btn btn-outline-success">Next Question</button>
+
         </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center">
+          <button type="button" onclick="app.questionController.answer()" class="btn btn-outline-danger">true</button>
+          <button type="button" onclick="app.questionController.answer()" class="btn btn-outline-warning">False</button>
+        </div>
+
+
       </div>
     </div>
   </main>
